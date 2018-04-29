@@ -1,4 +1,177 @@
-h1 {
+*{
+    font-family: sans-serif;
+}
 
-	color:red;
+body {
+  margin: 0;
+  /*background-color*/
+
+}
+
+.cabecera {
+    background-color:#194769;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    /*width: 100%;*/
+}
+
+#img{
+   float:left;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: -80px;
+    height: auto;
+    position: relative;
+    opacity: 0.9;
+    border-radius: 25%;
+}
+
+ul {
+    text-align: center;
+}
+
+
+.menu {
+   background-color: #393232;
+   padding: 1px;
+}
+
+
+
+.menu li{
+    display: inline;
+    /*width: 100%;*/
+    
+}
+
+.menu li a {
+    /*float: left;*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    background-color: #ddd;
+    color: orange;
+    font-weight: bold;
+}
+
+.izquierda{
+    float: left;
+    width: 15%;
+    /*background-color: #acc6e8;*/
+    height:auto;
+}
+
+.izquierda p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#4F323B;
+}
+
+.izquierda ul{
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+}
+
+.izquierda li{
+    margin:0;
+    float: left;
+    border:1px solid #e6f1fb;
+    text-align: center;
+
+}
+
+.izquierda li a{
+    display: block;
+    background-color: #1A3C40;
+    color:#ffffff;
+    width: 175px;
+    padding: 10px 10px 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    text-align: center;
+}
+
+}
+#izquierda{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.derecho{
+    float: right;
+    width: 15%;
+    color: #fff;
+    background-color:;
+    height:100%;
+
+}
+
+#derecho{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#imagen{
+    width: 50px;
+    height: 50px;
+}
+
+.contenido{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: -30px; 
+    text-align: justify;
+    background-color: #D2EBCD;
+    margin-bottom: -15px;
+
+}
+
+#content{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#nota{
+    font-style: italic;
+    text-align: right;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+
+#img_contenido{
+    display:block;
+    margin:0 auto 0 auto;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.contenido h1, h2{
+    color: orange;
+}
+
+.footer{
+    background-color: #2E383F;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    /*width: 100%; */
+    /*bottom: 0px;*/
+    /*width: 100%; */
+
 }
